@@ -1,0 +1,22 @@
+{
+  "name": "jQueryChat",
+  "homepage": "https://github.com/gajraajay/jQueryChatApp",
+  "authors": [
+    "Ajay Gajra <ajay.gajra@hotmail.com>"
+  ],
+  "description": "Basic jQuery Chat Application developed with CometChat, jQuery, and Bootstrap",
+  "main": "index.html",
+  "keywords": [
+    "jQuery",
+    "CometChat",
+    "Chat"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
