@@ -1,0 +1,30 @@
+<div class="card col-10  offset-1 col-md-6 offset-md-3  mt-5">
+    <div class="invisible mt-2 alert alert-danger" id="invalid-username-alert" role="alert">
+        Not a valid username, please check your username.
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-2 offset-md-5 col-4 offset-4">
+                <img class="cometchat-login-logo"
+                    src="https://www.cometchat.com/wp-content/uploads/2019/02/CometChatPrologo.png" alt="">
+            </div>
+        </div>
+
+        <form id="loginForm">
+            <div class="form-group">
+                <label data-i18n="login-username" for="userName">UserName</label>
+                <input type="text" class="form-control" id="userName" placeholder="Enter your username">
+                <small data-i18n="login-username-hint" id="emailHelp" class="form-text text-muted">We'll never share your identity with with anyone
+                    else.</small>
+            </div>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="remeberMe">
+                <label class="form-check-label" for="remeberMe" data-i18n="login-remeber-me">remeber me</label>
+            </div>
+            <div class="btn btn-primary mt-3" id="loginBtn" data-i18n="login-get-in">Get in</div>
+        </form>
+    </div>
+</div>
+
+<script src="js/login.js" type="text/javascript">
+</script>

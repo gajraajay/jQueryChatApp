@@ -1,0 +1,91 @@
+.cometchat-login-logo{
+    max-width: 100%;
+}
+#contactList{
+    height: calc(100vh - 105px);
+    overflow-y: auto;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.name , .uid{
+    overflow-x: hidden;
+    max-width: 100%;
+}
+.contactItem{
+    max-height: 100px;
+}
+.profileThumbImage{
+    height:52px;
+    width:52px;    
+}
+.contactThumbImage{
+    height:52px;
+      width:52px;
+}
+.contactThumbImage,
+.profileThumbImage{
+    background-repeat: no-repeat; 
+     background-position: left center;
+     background-size:cover;      
+      border-radius: 50%;
+}
+.contactItem:hover{
+    background: #e4e4e4;
+    cursor: pointer;
+}
+#messageInputWrapper{
+    position:absolute;
+    bottom: 0px;
+    width: 97%;
+    height: 64px;
+    max-height: 64px;
+    overflow: hidden;
+    margin-bottom: 0px;
+    left: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#messageInputWrapper #messageInput{
+height: 100%;
+border: 0.5px solid #A0A0A0;
+overflow-y: auto;
+overflow-x: hidden;
+padding-right: 10px;
+padding-left: 10px;
+}
+[contenteditable]:focus {
+    outline: 0px solid transparent;
+}
+[contenteditable=true]:empty:before {
+    content: attr(placeholder);
+    display: block; /* For Firefox */
+  }
+  
+
+
+  /* width */
+::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #FFF; 
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #DFDFDF; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #AAA; 
+  }
+  
+  body{
+    background: #ebebee !important;
+  }
+  .content{
+    background: #FFF !important;
+  }
